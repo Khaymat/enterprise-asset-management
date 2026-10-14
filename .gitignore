@@ -1,0 +1,32 @@
+# Environment configuration
+.env
+*.env
+
+# Uploads and temporary storage
+public/uploads/*
+!public/uploads/.gitkeep
+storage/*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Flutter & Dart artifacts
+android_mobile/.dart_tool/
+android_mobile/.flutter-plugins-dependencies
+android_mobile/.pub-cache/
+android_mobile/.pub/
+android_mobile/build/
+android_mobile/.idea/
+android_mobile/*.iml
+
+# Android build outputs
+android_mobile/android/app/debug/
+android_mobile/android/app/profile/
+android_mobile/android/app/release/
+
+# Temporary development scripts
+scratch/
+Report.docx
+fix_db.php
